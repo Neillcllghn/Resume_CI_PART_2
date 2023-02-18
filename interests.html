@@ -196,22 +196,16 @@
         </div>
 
     </footer>
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3, // zoom function on map
-                center: { // coordinates
-                    lat: 46.619261, 
-                    lng: -33.134766
-                }
-            });
-        }
-    </script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
      <script
      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPKXYCjulUSI-Xe1h7FLhOELWncrmlwRE&callback=initMap&v=weekly"
      defer></script>
-     <script src="https://unpkg.com/@googlemaps/js-api-loader@1.0.0/dist/index.min.js"></script>
+     <script
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+     defer
+   ></script>
+   <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"> // this will activate the markers on map</script>
+   
+   <script src="assets/js/maps/maps.js"></script>
 </body>
 
 </html>
